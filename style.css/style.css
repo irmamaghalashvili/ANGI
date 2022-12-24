@@ -1,0 +1,48 @@
+.header {
+    margin: 0 10px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-color: black;
+}
+.newproducts {
+    padding-top: 100px;
+}
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-li {
+    margin-left: 15px;
+}
+.burger {
+    display: none;
+}
+.activeNav {
+    width: 50px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 20px;
+}

@@ -1,0 +1,11 @@
+@media (max-width: 769px) {
+    .navigation {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .navigation.activeNav {
+        display: block;
+    }
+}
