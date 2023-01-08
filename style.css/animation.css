@@ -1,0 +1,27 @@
+.header:hover {
+    zoom: 120%;
+    z-index: 999;
+}
+.new-product:hover {
+    opacity: 80%;
+    zoom: 110%;
+}
+.best-saller:hover {
+    opacity: 80%;
+    zoom: 110%;
+}
+
+/* footer */
+.footer {
+    height: 100px;
+}
+.footer, .contact-info-ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info-ul li {
+    margin-left: 50px;
+}

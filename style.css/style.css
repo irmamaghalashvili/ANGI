@@ -1,14 +1,15 @@
 .header {
-    padding-top: 10px;
     position: fixed;
+    z-index: 1000;
+    padding: 10px;
+    height: 60px;
     width: 100%;
-    height: auto;
+    background: #fff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    border-color: black;
 }
 .newproduct {
     padding-top: 100px;
@@ -26,6 +27,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+.nav-ul a {
+    margin-left: 10px;
 }
 .burger {
     display: none;
@@ -57,17 +61,52 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/* new-product */
 .newprodacts {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 20px;
 }
-.bestsallers {
+.newprodacts h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.new-product1, .new-product2 {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+}
+.new-product-1, .new-product-2, .new-product-3 {
+    margin-right: 15px;
+}
+
+.new-product2-1, .new-product2-2, .new-product2-3 {
+    margin-right: 15px;
+}
+
+/* best saller */
+.bestsallers {
+    margin-bottom: 20px;
+}
+.bestsallers h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.best-saller1, .best-saller2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.best-saller-1, .best-saller-2, .best-saller-3 {
+    margin-right: 15px;
+}
+
+.best-saller2-1, .best-saller2-2, .best-saller2-3 {
+    margin-right: 15px;
 }
